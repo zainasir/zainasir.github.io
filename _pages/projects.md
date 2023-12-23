@@ -8,7 +8,7 @@ toc_sticky: true
 ---
 
 ### [Ball-following Robot](https://github.com/zainasir/BallFollower)
-ROS project where a TurtleBot follows a red ball while maintaining a distance of 1 meter. I used OpenCV to detect a sphere and the most red pixel in the camera's viewport to pinpoint the ball's exact location. After finding the distance of the ball using the depth camera, linear and angular velocity commands were sent to the TurtleBot, allowing it to follow the red ball while maintaining the distance.
+ROS project where a TurtleBot follows a red ball while maintaining a distance of 1 meter. I used OpenCV to detect a sphere and the most red pixel in the camera's viewport to pinpoint the ball's exact location. After finding the distance of the ball using the depth camera, linear and angular velocity commands were sent to the TurtleBot, allowing it to follow the red ball while maintaining the distance. Click [here](https://github.com/zainasir/BallFollower) for code and demo.
 
 ![Gif showing a demo of this project](/images/ball-follower-robot-demo.gif)
 
@@ -17,3 +17,12 @@ The aim of this project was to enable drones to be able to detect Spotted Lanter
 
 ![Gif showing a demo of this project](/images/slf-demo.gif)
 
+### [Map Navigation through Deep Q-learning](https://github.com/zainasir/FrozenLakeDQN)
+A research project with the aim of exploring deep q-learning as a tool to navigate dynamic maps. I utilized FrozenLake environment as a research platform, developed a data pipeline to extract states as images, and generated optimal policy using a two-part neural network.
+
+![Gif showing a demo of this project](/images/map-navigation.gif)
+
+## [Pathfinding Visualizer](https://github.com/zainasir/PathfindingVisualizer)
+A Java program developed to visualize A* pathfinding algorithm in real-time. I implemented the A* algorithm in Java to find the shortest distance between two points on a square grid and utilized Swing toolkit to show the algorithm searching possible paths in real-time.
+
+![Gif showing a demo of this project](/images/pathfinding.gif)
