@@ -1,6 +1,6 @@
 ---
 title: "Ball-following Robot"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "ROS project implementing precise ball tracking with OpenCV for a TurtleBot <br/><img src='/images/ball-follower-robot-demo.gif'>"
 collection: projects
 ---
 
